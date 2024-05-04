@@ -5,14 +5,16 @@
 {% endblock %}
 
 {% block content %}
-
+{% include 'navbar.html' %}
 <div class="body-container">
     <h1>Market</h1>
     {% for product in products %}
     <div class="products">
         <div class="product">
-            <h3>{{product['name']}}</h3>
-            <h5>Price: R{{product['price']}}</h5>  
+            <h3>{{product.name}}</h3>
+            <h5>Price: R{{product.price}}</h5>
+            <h5>Owner: {{product.owned_user}}</h5>
+            <small>Description: {{product.description}}</small>
         </div>
     </div>
     {% endfor %}

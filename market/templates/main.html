@@ -60,9 +60,11 @@
         }
 
         .product {
+            width: 550px;
             background-color: #e2e2e2;
-            padding: 10px;
+            padding: 20px;
             border-radius: 5px;
+            text-align: left;
         }
 
         table {
@@ -75,10 +77,25 @@
         tr {
             background-color: #4d4d4d;
         }
+
+        .login_page {
+            display: inline-block;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .login {
+            width: 550px;
+            background-color: #e2e2e2;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: left;
+        }
     </style>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    {% include 'navbar.html' %}
 
     {% block content %}
 
