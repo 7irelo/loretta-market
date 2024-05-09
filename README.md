@@ -32,7 +32,7 @@ To get started with Loretta Market, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local machine using Git:
 
     ```
-    git clone https://github.com/your-username/loretta-market.git
+    git clone https://github.com/7irelo/Loretta_Market.git
     ```
 
 2. **Set Up the Environment:** Set up a virtual environment for the project and install the required dependencies listed in the `requirements.txt` file.
